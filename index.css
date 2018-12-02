@@ -1,0 +1,77 @@
+.parentTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridTop{
+    border-color: "#f44336";
+    border: '1px solid red';
+    display: flex;
+    flex-direction: column;
+}
+
+.lightBackground {
+    background-color: 00FFFF
+}
+
+.columnsStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowStyle {
+    display: flex;
+}
+
+.darkBackground {
+    background-color: F0FFFF
+}
+
+.box {
+    width: 100;
+    height: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cross{
+    color: #f90;
+    font-size: 2.5em;
+    border-radius: 5px;
+    line-height: 100px;
+}
+
+.resultHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+#resetBtn{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #2196F3;
+    color: dodgerblue
+}
+#resetBtn:hover {
+    background: #2196F3;
+    color: white;
+  }
